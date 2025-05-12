@@ -22,7 +22,7 @@ function Navbar() {
       <nav className='navbarim'>
         <div className="logo">
           <NavLink to='/' onClick={closeMenu}>
-            <img alt="logo" src="./src/assets/Images/recycle.png" />
+            <img alt="logo" src="/images/recycle.png" />
           </NavLink>
         </div>
         
