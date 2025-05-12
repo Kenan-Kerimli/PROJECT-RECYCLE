@@ -127,7 +127,7 @@ function Chatbot() {
         {isTyping && (
           <div className="message">
             <div className="message-avatar">
-              <img src="./src/assets/Images/recycle.png" alt="RecycleAI Avatar" />
+              <img src="/images/recycle.png" alt="RecycleAI Avatar" />
             </div>
             <div className="typing-indicator">
               <span className="typing-dot"></span>
