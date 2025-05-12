@@ -67,7 +67,7 @@ export async function getAIResponse(query, binType) {
             2. Bu tip tullantıların təkrar emal prosesini təsvir edin
             3. Təkrar emalın ətraf mühitə faydalarını göstərin
             4. Bu tip tullantıların düzgün atılmamasının zərərlərini qeyd edin
-            
+            5. Cavabın uzunluğu 5 cümlədən uzun olmamalıdır.
             Cavabınız qısa və anlaşılan olmalıdır.`
           },
           {
