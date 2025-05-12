@@ -1,0 +1,161 @@
+#recycleai {
+  padding: 200px 15% 6rem;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.recycleai-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.recycleai-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.recycleai-header h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+}
+
+.recycleai-header p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.recycleai-content {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.chat-container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.chat-header {
+  padding: 1.5rem;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.chat-header-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ai-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.ai-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ai-info h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.status-badge {
+  font-size: 0.8rem;
+  color: #22c55e;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.status-badge::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #22c55e;
+  border-radius: 50%;
+}
+
+.features-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feature-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 0.5rem;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+  #recycleai {
+    padding: 160px 10% 4rem;
+  }
+
+  .recycleai-content {
+    grid-template-columns: 1fr;
+  }
+
+  .features-sidebar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+
+  .recycleai-header h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  #recycleai {
+    padding: 140px 5% 3rem;
+  }
+
+  .recycleai-header h1 {
+    font-size: 2rem;
+  }
+
+  .features-sidebar {
+    grid-template-columns: 1fr;
+  }
+}
